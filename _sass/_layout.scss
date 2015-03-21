@@ -776,6 +776,19 @@ dl dd {
   -ms-filter: "FlipH";
 }
 
+.about img {
+  height: 128px;
+  width: 128px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Gists code lines */
+.line-pre{
+  text-align: left;
+}
+
 /* #Media Queries
 ================================================== */
 

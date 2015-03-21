@@ -9,11 +9,22 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://localhost:4000"
 twitter_username: mabrizio
 github_username:  mabrizio
-
+linked_in: https://www.linkedin.com/in/mauricioaraya
+github: https://github.com/mabrizio
 # Build settings
 markdown: kramdown
+
+job:
+  employer_name: POSSIBLE
+  url: http://www.possible.com
+  position: System Adminitrator/DevOps
 
 noindex: true
 
 sass:
   style: compressed
+
+# GitHub
+safe: true
+lsi: false
+permalink: /:categories/:title.html

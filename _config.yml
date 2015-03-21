@@ -5,8 +5,8 @@ email: hello@mauricioaraya.net
 description:  "DevOps, Infrastructure Automation, Linux and any related technology. Here is where I write
 my thoughts about technology"
 baseurl: "" # the subpath of your site, e.g. /blog/
-#url: "http://mauricioaraya.net"
-url: "http://localhost:4000"
+url: "http://mauricioaraya.net"
+#url: "http://localhost:4000"
 twitter_username: mabrizio
 github_username:  mabrizio
 linked_in: https://www.linkedin.com/in/mauricioaraya

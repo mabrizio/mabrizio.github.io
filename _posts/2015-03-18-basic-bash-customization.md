@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bash basic customization"
+title:  "Basic bash customization"
 date:   2015-03-18 21:13:17
 category: devops
 tags: [devops, bash, linux]

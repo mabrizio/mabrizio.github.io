@@ -3,3 +3,5 @@ _site/
 .idea
 .ruby-version
 Gemfile*
+tags/_site
+categories/_site

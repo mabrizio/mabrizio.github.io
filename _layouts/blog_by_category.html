@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<div class="home">
+  <h1 class="page-heading">Articles by category "{{ page.category }}"</h1>
+  <ul class="post-list">
+      {% if site.categories[page.category] %}
+        {% for post in site.categories[page.category] %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
+        </h2>
+      </li>
+        {% endfor %}
+    {% else %}
+      <li>
+        <h2>
+          There are no posts for this tag.
+        </h2>
+      </li>
+    {% endif %}
+  </ul>
+</div>

@@ -1,0 +1,10 @@
+- slug: devops
+  name: DevOps
+- slug: bash
+  name: Bash
+- slug: linux
+  name: Linux
+- slug: solr
+  name: Solr
+- slug: perl
+  name: Perl

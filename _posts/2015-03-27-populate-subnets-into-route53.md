@@ -8,7 +8,7 @@ category: cloud
 tags: [devops, dns, aws, route53, ruby]
 ---
 
-Recently I was working standarizing network addressing and host names as part of a deployment inside an [AWS][AWS] [VPC][VPC], so I came up with this solution. This script will associate IP addresses ranging from `192.168.10.2` to `192.168.10.254` and from `192.168.11.2` to `192.168.11.254` with DNS A records named ip-192-168-10-X.lan.example.net and ip-192-168-11-X.lan.example.net. This can also be very useful when dealing with services rescricted by URLs and you need your developers to be able to publish them using their workstations.
+Recently I was working standarizing network addressing and host names as part of a deployment inside an [AWS][AWS] [VPC][VPC], so I came up with this solution. This script associates IP addresses ranging from `192.168.10.2` to `192.168.10.254` and from `192.168.11.2` to `192.168.11.254` with DNS A records named ip-192-168-10-X.lan.example.net and ip-192-168-11-X.lan.example.net. This can also be very useful when dealing with services rescricted by URLs and you need your developers to be able to publish them using their workstations.
 
 {% highlight ruby %}
 # Force v1.x of the AWS SDK

@@ -1,6 +1,8 @@
 ---
 layout: post
-title:  "Populate subnet into Route53"
+title:  "Populate subnets into Route53"
+redirect_from:
+  - /cloud/populate-route53-subnet.html
 date:   2015-03-27 06:50:17
 category: cloud
 tags: [devops, dns, aws, route53, ruby]

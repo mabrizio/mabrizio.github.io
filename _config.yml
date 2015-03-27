@@ -23,7 +23,8 @@ noindex: true
 
 sass:
   style: compressed
-
+gems:
+  - jekyll-redirect-from
 # GitHub
 safe: true
 lsi: false

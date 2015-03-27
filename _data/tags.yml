@@ -8,3 +8,11 @@
   name: Solr
 - slug: perl
   name: Perl
+- slug: dns
+  name: DNS
+- slug: aws
+  name: AWS
+- slug: route53
+  name: Route53
+- slug: ruby
+  name: Ruby

@@ -17,8 +17,8 @@ SOLR_PATH="/solr"
 DELETE="stream.body=<delete><query>*:*</query></delete>"
 COMMIT="stream.body=<commit/>"
 
-curl "'${SOLR_URL}:${SOLR_PORT}${SOLR_PATH}/update?${DELETE}'"
-curl "'${SOLR_URL}:${SOLR_PORT}${SOLR_PATH}/update?${COMMIT}'"
+curl "${SOLR_URL}:${SOLR_PORT}${SOLR_PATH}/update?${DELETE}"
+curl "${SOLR_URL}:${SOLR_PORT}${SOLR_PATH}/update?${COMMIT}"
 {% endhighlight %}
 
 The first `curl` call requests the index to be deleted and the second one commits the change in case it's not enabled on the server.
